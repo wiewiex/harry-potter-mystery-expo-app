@@ -1,3 +1,3 @@
 ## Hello
 
-This is a Expo app, run the project `yarn start`, directly for android `yarn android`
+This is an Expo app, run the project `yarn start`.
