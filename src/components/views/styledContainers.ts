@@ -78,12 +78,10 @@ export const SlideContainer = styled.View(
   (props: { isActive: boolean }) => css`
     align-items: center;
     justify-content: center;
-    background-color: ${(props: any) => props.theme.colors.tertiary};
+    background-color: ${props => props.theme.colors.tertiary};
     flex: 1;
     border: 5px solid
-      ${props.isActive
-        ? (props: any) => props.theme.colors.accent
-        : 'transparent'};
+      ${props.isActive ? props => props.theme.colors.accent : 'transparent'};
     border-radius: 50px;
   `,
 );
